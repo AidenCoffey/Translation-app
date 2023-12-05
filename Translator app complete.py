@@ -3,7 +3,7 @@ import googletrans
 from googletrans import Translator
 import textblob
 from tkinter import ttk, messagebox
-import threading
+import threading 
 from threading import Thread
 import math
 
@@ -120,7 +120,9 @@ def translate_it():
         tree.insert("","end")
       
         #this is straight forward it is just updating the desciption label
-        update_description_label()
+        #update_description_label()
+        '''this is commented out as of right now due to the in accuracy with threading
+        it makes the code run really slow and it annoys me, i will work on it when i feel like it'''
         
     #error box if there is an issue
     except Exception as e:
@@ -274,6 +276,8 @@ Chat GPT
 Python.com
 Textblob.com
 googletrans.com
+Threading.com
+tkinter.com
 '''
 
 #end of code
