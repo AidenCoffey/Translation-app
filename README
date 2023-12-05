@@ -1,0 +1,15 @@
+'''
+This is a read me file about my code
+in this code you will need to pip install in the terminal googletrans, textblob, and tkinter
+you will have to import threading, and math was imported so I could time how long it takes to the code
+googletrans is the free API that I pulled my translations from
+textblob is what I used to manage my text and save it more easily
+tkinter is what I used to set up the page
+
+This app is used to translate words from language1 to language2 and then take each individual word that is translated and translate it back to language1 so that we can learn the proper sentence structure for and ideas for other languages.
+
+With this code, we used threading to try to speed up the translation time for translation, I got it to work on the computer for the actual aspect of my code but not for the work of my update_description_label() so I have that commented out until I can figure that out. 
+
+I used definitions for code and called them so it will be easier to resue code. 
+
+'''
